@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
+/**
+ * using puts, without printf
  *
- *
+ * and returns 0
  */
 int main(void)
 {

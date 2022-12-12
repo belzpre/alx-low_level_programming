@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* the following functions generates a eandom number and checks its sign */
+/**
+ * main - entry point
+ *
+ * Return - always 0 (success)
+ */
 int main(void)
 {
 	int n;

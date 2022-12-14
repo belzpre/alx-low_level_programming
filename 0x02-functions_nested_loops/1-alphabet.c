@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet - Check description
- * Description: This program/function prints the alphabet, in lowercase, followed by a new line.
+ * Description: This prints the alphabet, in lowercase, followed by a new line.
  * Return: N/A
  */
 void print_alphabet(void)

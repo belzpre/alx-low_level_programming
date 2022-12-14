@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _isalpha - Check for alphabet
- * @c: An input character
+ * _isalpha - See the description
+ * @c: input character
  * Description: This checks for alphabetic character, lowercase or uppercase.
- * Return: 1 if c is alphabet, 0 otherwise.
+ * Return: 1 if c is alphabetic, lowercase or uppercase, 0 otherwise.
  */
 int _isalpha(int c)
 {

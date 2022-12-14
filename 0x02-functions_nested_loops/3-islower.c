@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  ** _islower - check description
- ** @c: input character
- ** Description: This prints the alphabet, in lowercase, 10 times,
+ ** Description: This prints the alphabet, in lowercase, 10 times,
  ** followed by a new line.
  ** Return: 1 if c is lowercase, 0 otherwise.
  **/

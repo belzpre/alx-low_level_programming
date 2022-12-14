@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	float f[98];
+	double f[98];
 
 	f[0] = 1;
 	f[1] = 2;

@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- ** _isalpha - Check description
- ** @c: An input character
- ** Description: This checks for alphabetic character.
- ** Return: 1 if c is alphabet, 0 otherwise.
- **/
+ * _isalpha - Check description
+ * @c: An input character
+ * Description: This checks for alphabetic character.
+ * Return: 1 if c is alphabet, 0 otherwise.
+ */
 int _isalpha(int c)
 {
 	char i, j;
@@ -14,7 +14,7 @@ int _isalpha(int c)
 	{
 		for (j = 'A'; j <= 'Z'; j++)
 		{
-		       if (c == i || c == j)
+			if (c == i || c == j)
 			m = 1;
 		}
 	}

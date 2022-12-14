@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_last_digit - See the description
+ * jack_bauer - See the description
  * Description: This prints every minute of the day of Jack Bauer,
  * starting from 00:00 to 23:59.
  * Return: N/A

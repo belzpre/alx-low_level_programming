@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- ** _islower - check description
+ ** _islower - Check description
  ** Description: This prints the alphabet, in lowercase, 10 times,
  ** followed by a new line.
  ** Return: 1 if c is lowercase, 0 otherwise.

@@ -11,7 +11,6 @@ int main(void)
 
 	f[0] = 1;
 	f[1] = 2;
-	printf("%ld, %ld, ", f[0], f[1]);
 
 	for (i = 2; i < 50; i++)
 	{

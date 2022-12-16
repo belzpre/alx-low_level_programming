@@ -30,7 +30,7 @@ void print_integer(int m)
 {
 	int i;
 
-	for (i = 100000; i >= 1; i /= 10)
+	for (i = 1000000000; i >= 1; i /= 10)
 		if (m / i != 0)
 		{
 			_putchar((m / i) % 10 + '0');

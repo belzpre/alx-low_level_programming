@@ -29,7 +29,6 @@ void print_number(int n)
 	int p;
 
 	p = deci(8);
-
 	if (n < 0)
 	{
 		_putchar('-');
@@ -42,7 +41,6 @@ void print_number(int n)
 	{
 		while (n / p == 0)
 			p /= 10;
-
 		while (p >= 1)
 		{
 			_putchar((n / p) + '0');

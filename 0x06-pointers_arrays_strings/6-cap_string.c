@@ -1,6 +1,7 @@
 #include "main.h"
 
 int check_seperators(char m);
+
 /**
  * cap_string - This capitalizes all words of a string.
  * @s: Input string.
@@ -35,6 +36,7 @@ int check_seperators(char m)
 	int i;
 	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!',
 	       	'?', '"', '(', ')', '{', '}'};
+
 	for (i = 0; i < 13; i++)
 	{
 		if (m == sep[i])

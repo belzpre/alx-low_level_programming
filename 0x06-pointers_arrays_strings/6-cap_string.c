@@ -13,7 +13,6 @@ char *cap_string(char *s)
 	{
 		if (i == 0 && (s[i] >= 'a' && s[i] <= 'z'))
 			s[i] -= 32;
-
 		if (check_seperators(s[i]) && (s[i + 1] >= 'a' && s[i + 1] <= 'z'))
 			s[i + 1] -= 32;
 		i++;
@@ -29,9 +28,10 @@ char *cap_string(char *s)
  * Return: 1 or 0.
  */
 int check_seperators(char m)
-{
+{/
 	int i;
-	char seperators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}' };
+	char seperators[13] = { ' ', '\t', '\n', ',', ';', '.', '!',
+	       '?', '"', '(', ')', '{', '}' };
 	for (i = 0; i < 13; i++)
 	{
 		if (m == seperators[i])

@@ -30,7 +30,8 @@ char *cap_string(char *s)
 int check_seperators(char m)
 {
 	int i;
-	char sep[13] = {' ','\t','\n',',',';','.','!','?','"','(',')','{','}'};
+	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!',
+	       	'?', '"', '(', ')', '{', '}'};
 	for (i = 0; i < 13; i++)
 	{
 		if (m == sep[i])

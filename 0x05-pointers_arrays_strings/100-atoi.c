@@ -4,7 +4,7 @@
  * @s: Input string.
  *
  * Return: The result.
- * */
+ */
 int _atoi(char *s)
 {
 	int sign = 1;
@@ -21,7 +21,6 @@ int _atoi(char *s)
 			null_flag = 1;
 			tot = tot * 10 + *s - '0';
 		}
-
 		else if (null_flag)
 			break;
 		s++;
